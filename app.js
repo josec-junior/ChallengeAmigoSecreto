@@ -19,6 +19,7 @@ function adicionarAmigo() {
         amigos.push(amigo);
     }
     window.document.getElementById("amigo").value = "";
+    window.document.getElementById("resultado").innerHTML = "";
     visualizarAmigos();
 }
 
